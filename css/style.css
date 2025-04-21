@@ -140,7 +140,7 @@ section {
 background-image: linear-gradient(to bottom, var(--color-white), var(--color-primary));
 padding: var(--spacing-lg);
 }
-/* sem formato */
+
 .hero-container {
     display: flex;
     flex-direction: row;
@@ -259,16 +259,21 @@ padding: var(--spacing-lg);
     margin-top: var(--spacing-lg);
 }
 
-.about {
-    background-color: var(--color-blue);
+.hero {
     color: var(--color-white);
     padding: 5rem 0 0;
+}
+
+.about {
+    background-color: var(--color-blue);
+    
+    align-items: end;
+    padding-bottom: 0;
 }
 
 .about-container {
     display: flex;
     gap: var(--spacing-lg);
-    align-items: center;
 }
 
 .about-image {
@@ -278,6 +283,7 @@ padding: var(--spacing-lg);
     flex: 1.5;
     margin-bottom: auto;
     margin-top: 2px;
+    color: var(--color-white);
 }
 
 .about .section-title {
@@ -337,7 +343,12 @@ padding: var(--spacing-lg);
 
     .hero-title {
         font-size: 5.2rem;
+    }   
+
+    .btn-screen {
+        margin-bottom: 2rem;
     }
+
 
     .about-container {
         flex-direction: column;
