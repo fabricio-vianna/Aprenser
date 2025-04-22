@@ -278,6 +278,7 @@ padding: var(--spacing-lg);
 .about-image {
     flex: 1;
     margin: auto;
+    justify-content: center;
 }
 .about-content {
     flex: 1.5;
