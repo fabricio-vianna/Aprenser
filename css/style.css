@@ -266,8 +266,7 @@ padding: var(--spacing-lg);
 
 .about {
     background-color: var(--color-blue);
-    
-    align-items: end;
+    align-items: center;
     padding-bottom: 0;
 }
 
@@ -278,6 +277,7 @@ padding: var(--spacing-lg);
 
 .about-image {
     flex: 1;
+    margin: auto;
 }
 .about-content {
     flex: 1.5;
